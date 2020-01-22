@@ -10,7 +10,9 @@ int main(void)
 
     float n;
     int m;
-
+    
+    //until user inputs valid number
+    
     do
     {
         n = get_float("Change owed: ");
@@ -23,6 +25,8 @@ int main(void)
     m = (int)n;
 
 
+    //initializing the number of coins (j) to 0
+    
     int j = 0;
 
     while (m >= 25)
